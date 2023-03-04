@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: 'cmdefi',
+  domain: 'https://bitouq.notion.site/CRYPTO-HOT-715c0732306e4fc99a149176a0643bf8',
   author: 'Travis Fischer',
 
   // open graph metadata (optional)

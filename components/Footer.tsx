@@ -111,18 +111,6 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.newsletter && (
-          <a
-            className={styles.newsletter}
-            href={`${config.newsletter}`}
-            title={`Newsletter ${config.author}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaEnvelopeOpenText />
-          </a>
-        )}
-
         {config.youtube && (
           <a
             className={styles.youtube}
@@ -134,6 +122,19 @@ export const FooterImpl: React.FC = () => {
             <FaYoutube />
           </a>
         )}
+        
+         {config.newsletter && (
+          <a
+            className={styles.newsletter}
+            href={`${config.newsletter}`}
+            title={`Newsletter ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaEnvelopeOpenText />
+          </a>
+        )}
+        
       </div>
     </footer>
   )
